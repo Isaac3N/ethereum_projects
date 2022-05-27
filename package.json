@@ -1,0 +1,24 @@
+{
+  "name": "raw_tx",
+  "version": "1.0.0",
+  "description": "A list of random ethereum projects that I created for practicing ethereum",
+  "main": "raw_tx_demo.js",
+  "scripts": {
+    "test": "raw_tx_demo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-tx": "^2.1.2",
+    "ethereumjs-util": "^5.1.5",
+    "rlp": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Isaac3N/ethereum_projects.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Isaac3N/ethereum_projects/issues"
+  },
+  "homepage": "https://github.com/Isaac3N/ethereum_projects#readme"
+}
