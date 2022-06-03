@@ -6,6 +6,8 @@ contract MyContract {
     // Conditional
     // Loop
 
+    address public owner;
+
     uint256[] public numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
     function countEvenNumbers() public view returns (uint256) {
@@ -27,5 +29,9 @@ contract MyContract {
         } else {
             return false;
         }
+    }
+
+    function isOwner() public view returns (bool) {
+        return (msg.sender == owner);
     }
 }
